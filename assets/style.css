@@ -1,0 +1,11 @@
+html, body, #__nuxt, #__layout {
+  @apply h-full;
+}
+
+body {
+  @apply m-10 p-0 bg-black-900;
+}
+
+.grid-item-animate {
+  @apply duration-300 ease-in-out transform;
+}
